@@ -1,0 +1,57 @@
+  
+  /* article style */
+ 
+  article {
+    background-color: #b4b9bd;
+    margin: 0;
+  }
+  article img {
+    display: block;
+    width: 99%;
+    height: 200px;
+    margin: auto;
+  }
+  .description {
+    font-size: 0.9rem;
+  }
+  .date {
+    font-style: italic;
+  }
+  .count {
+    display: inline-block;
+    background-color: #02b3e4;
+    width: 15px;
+    text-align: center;
+    border-radius: 2px;
+    border: 1px solid black;
+  }
+  .flex-article-container img{
+      width: 30px;
+      height: 30px;
+      float: left;
+      display: block;
+  }
+  .comment{
+      padding-left: 40px;
+  }
+  .comments{
+      border-bottom: 1px solid black;
+      clear: left;
+  }
+ .author img{
+   width:100px;
+   height: 100px;
+   float: left;
+ }
+ .author h3{
+   color: white;
+ }
+ .author{
+   background-color: darkgray;
+   height: auto;
+   min-height: 100px;
+   background-color: chocolate;
+ }
+ .author p,.author h3{
+   margin-left: 110px;
+ }

@@ -1,0 +1,28 @@
+/* tag style */
+.tag {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: stretch;
+    height: min-content;
+  }
+  #tags {
+    background-color: #e87373;
+    border: 1px solid black;
+  }
+  #tags h2 {
+    border-bottom: 1px solid black;
+  }
+  #tags span,
+  #tags a {
+    margin-bottom: 0;
+    margin-right: 0;
+    padding: 1px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: #f7f7f8;
+  }
+  #tags span::before {
+    content: "♥";
+    color: red;
+  }
