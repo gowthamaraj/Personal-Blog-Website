@@ -1,3 +1,8 @@
+@import url("home-articles-style.css");
+@import url("home-posts-style.css");
+@import url("home-profile-style.css");
+@import url("home-style.css");
+@import url("home-tag-style.css");
 
 @media (min-width: 0px) and (max-width: 600px) {
     #grid-container {

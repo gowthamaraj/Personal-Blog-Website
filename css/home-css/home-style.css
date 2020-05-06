@@ -43,6 +43,13 @@ footer button:disabled a:hover {
   background-color: slategrey;
   color: snow;
 }
-#foot p{
+#foot p {
   text-align: center;
+}
+#foot div {
+  text-align: center;
+}
+#foot i {
+  color: #e87373;
+  margin: 0;
 }
